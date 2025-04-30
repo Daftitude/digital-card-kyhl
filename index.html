@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyhl Hines | Digital Business Card</title>
+    <meta name="description" content="Connect with Kyhl Hines – Technical Strategy Consultant at DAFTitude. View digital business card, add to contacts, and explore professional links.">
+    <meta name="author" content="Kyhl Hines">
+    <meta property="og:title" content="Kyhl Hines | Digital Business Card">
+    <meta property="og:description" content="Technical Strategy Consultant at DAFTitude. Connect and share.">
+    <meta property="og:image" content="https://kyhlhines.github.io/kyhlhines-card/1.png">
+    <meta property="og:url" content="https://kyhlhines.github.io/kyhlhines-card/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 480px;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        .card-wrap {
+            position: relative;
+        }
+        .card-image {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+            margin-bottom: 20px;
+        }
+        .overlay-button {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: #007aff;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            text-decoration: none;
+            transition: background 0.3s ease;
+            z-index: 10;
+        }
+        .overlay-button:hover {
+            background: #005bb5;
+        }
+        h1 {
+            font-size: 1.8rem;
+            margin: 10px 0 5px;
+            font-weight: 800;
+        }
+        .subtitle {
+            font-size: 1rem;
+            font-weight: 400;
+            margin-bottom: 15px;
+            color: #ccc;
+        }
+        .cta-group, .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .cta-group a, .social-links a {
+            text-decoration: none;
+            padding: 12px 18px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            background: #007aff;
+            color: white;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .cta-group a:hover, .social-links a:hover {
+            background: #005bb5;
+        }
+        .qr-code {
+            margin-top: 20px;
+        }
+        .qr-code img {
+            width: 160px;
+            height: 160px;
+            border-radius: 10px;
+            background: white;
+            padding: 6px;
+        }
+        footer {
+            font-size: 0.85rem;
+            color: #aaa;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        @media (max-width: 480px) {
+            .cta-group a, .social-links a {
+                width: 100%;
+                text-align: center;
+            }
+            .overlay-button {
+                bottom: 8px;
+                left: 8px;
+                font-size: 0.8rem;
+                padding: 8px 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card-wrap">
+            <a href="KyhlHines.vcf" download class="overlay-button">+ Add to Contacts</a>
+            <img src="1.png" alt="Business Card Front" class="card-image">
+        </div>
+        <img src="2.png" alt="Business Card Back" class="card-image">
+
+        <h1>Kyhl Hines</h1>
+        <p class="subtitle">Technical Strategy Consultant • Birmingham, AL</p>
+
+        <div class="cta-group">
+            <a href="mailto:kyhl_hines@daftitude.com">✉️ Email Me</a>
+            <a href="https://www.daftitude.com/" target="_blank">🌐 Visit Website</a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/kyhl-hines-45896517b/" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Daftitude" target="_blank">GitHub</a>
+            <a href="https://x.com/DaFTitude" target="_blank">X</a>
+            <a href="https://www.instagram.com/daftitude/" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@daftitude" target="_blank">TikTok</a>
+        </div>
+
+        <div class="qr-code">
+            <p style="margin-bottom: 10px;">Scan to Visit Website:</p>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https://www.daftitude.com" alt="QR Code">
+        </div>
+
+        <footer>
+            &copy; 2025 Kyhl Hines • Powered by DAFTitude
+        </footer>
+    </div>
+</body>
+</html>

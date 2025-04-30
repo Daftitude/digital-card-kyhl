@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Hines;Kyhl;;Mr.;
+FN:Kyhl Hines
+NICKNAME:DaftKyhl
+ORG:DAFTitude
+TITLE:Technical Strategy Consultant
+TEL;TYPE=WORK,VOICE:+1 910 260 9715
+EMAIL;TYPE=PREF,INTERNET:Kyhl_Hines@Daftitude.com
+URL:https://www.daftitude.com
+URL:https://github.com/Daftitude
+URL:https://linkedin.com/in/kyhl-hines-45896517b
+PHOTO;VALUE=URI:https://yourdomain.com/profile-pic.jpg
+LOGO;VALUE=URI:https://yourdomain.com/logo.png
+ADR;TYPE=WORK:;;Birmingham;AL;USA
+NOTE:Empowering digital success through data-driven strategy and custom tech.
+CATEGORIES:Technology,Strategy,Consulting
+TZ:America/Chicago
+END:VCARD
